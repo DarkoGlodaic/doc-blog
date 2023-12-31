@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
+// npx json-server --watch data/db.json --port 8000
+// npm run start
 import Navbar from './Navbar';
 import Home from './Home';
 import Create from './Create';
